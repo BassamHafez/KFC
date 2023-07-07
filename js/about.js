@@ -5,10 +5,10 @@
 //   loader.style.display = 'none';
 // });
 
-// window.onload=function(){
-//   var loader = document.getElementById("loading-page");
-//   loader.style.display = 'none';
-// }
+window.onload=function(){
+  var loader = document.getElementById("loading-page");
+  loader.style.display = 'none';
+}
 document.addEventListener("DOMContentLoaded", function() {
   var loader = document.getElementById("loading-page");
   loader.style.display = 'none';
