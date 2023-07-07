@@ -5,7 +5,7 @@
 //   loader.style.display = 'none';
 // });
 
-window.onload=function(){
+document.onload=function(){
   var loader = document.getElementById("loading-page");
   loader.style.display = 'none';
 }
