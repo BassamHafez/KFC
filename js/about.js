@@ -5,11 +5,14 @@
 //   loader.style.display = 'none';
 // });
 
-document.onload=function(){
+// window.onload=function(){
+//   var loader = document.getElementById("loading-page");
+//   loader.style.display = 'none';
+// }
+document.addEventListener("DOMContentLoaded", function() {
   var loader = document.getElementById("loading-page");
   loader.style.display = 'none';
-}
-
+});
 
 // setting active link-------------------------------------------------------------------------------
 let links=document.querySelectorAll(".nav-div");
