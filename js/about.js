@@ -1,3 +1,16 @@
+
+// loading page-------------------------------------------------------------
+// window.addEventListener('load', function() {
+//   var loader = document.getElementById('loading-page');
+//   loader.style.display = 'none';
+// });
+
+window.onload=function(){
+  var loader = document.getElementById("loading-page");
+  loader.style.display = 'none';
+}
+
+
 // setting active link-------------------------------------------------------------------------------
 let links=document.querySelectorAll(".nav-div");
 for(let i=0;i<links.length;i++){

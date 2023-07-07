@@ -9,6 +9,27 @@ a{
 html{
     scroll-behavior: smooth;
 }
+
+
+#loading-page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index:5;
+    flex-direction: column;
+    background:linear-gradient(135deg, red 10%,white 10%);
+  }
+  .loading-img{
+    width: 200px;
+  }
+  .fa-spin{
+    color: red;
+  }
 .home{
     position:fixed;
     top:0;
