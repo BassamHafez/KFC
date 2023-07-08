@@ -6,7 +6,7 @@
 a{
     text-decoration: none;
 }
-html{
+html,body{
     scroll-behavior: smooth;
 }
 
@@ -22,14 +22,12 @@ html{
     align-items: center;
     z-index:5;
     flex-direction: column;
-    background:linear-gradient(135deg, red 10%,white 10%);
+    background-color:black;
   }
-  .loading-img{
-    width: 200px;
+  .loading-logo{
+    width: 300px;
   }
-  .fa-spin{
-    color: red;
-  }
+
 .home{
     position:fixed;
     top:0;
@@ -277,7 +275,10 @@ hr{
 .owl-desc-div{
     height: 3.125rem;
 }
-
+.owl-price{
+    background-color: rgba(219, 185, 190, 0.5);
+    padding: 5px;
+}
 .customize{
     background-color: #e61409;
     color: white;
@@ -321,21 +322,38 @@ del{
 }
 
 .bestseller-item img{
-    border-radius: 20px;
+    border-radius: 1.25rem;
     cursor: pointer;
-    border: 1px solid rgb(190, 10, 10);
-    box-shadow: 1px 40px 20px 2px rgba(0, 0, 0,.3);
+    border: 0.0625rem solid rgb(190, 10, 10);
+    box-shadow: 0.0625rem 2.5rem 1.25rem 0.125rem rgba(0, 0, 0,.3);
 }
 .bestseller-item{
     transition: all .5s;
+    position: relative;
+    width: 15.625rem;
+    height: 18.75rem;
 }
 .bestseller-item:hover{
     transform: scale(1.1,1.1);
 }
+.bestseller-title{
+    position: absolute;
+    top: 28%;
+    left: 5%;
+    color: white;
+    padding:0.625rem;
+    font-size: 1.875rem;
+}
+.bestseller-title hr{
+    background-color: #5C5D62;
+    margin: 0;
+}
 .rounded{
     cursor: pointer;
 }
-
+.info-item{
+    height: 300px;
+}
 ::-webkit-scrollbar{
     width:0.3125rem;
 }
@@ -387,8 +405,8 @@ footer h5, footer p{
 .footer-options h5{
     color: #AD202B;
     cursor: pointer;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
 }
 .footer-icons .fa-2x{
     cursor: pointer;

@@ -1,14 +1,15 @@
 
-// loading page-------------------------------------------------------------
 // window.addEventListener('load', function() {
 //   var loader = document.getElementById('loading-page');
 //   loader.style.display = 'none';
 // });
 
-window.onload=function(){
-  var loader = document.getElementById("loading-page");
-  loader.style.display = 'none';
-}
+// window.onload=function(){
+//   var loader = document.getElementById("loading-page");
+//   loader.style.display = 'none';
+// }
+
+// loading page-------------------------------------------------------------
 document.addEventListener("DOMContentLoaded", function() {
   var loader = document.getElementById("loading-page");
   loader.style.display = 'none';
@@ -46,7 +47,7 @@ owl.owlCarousel({
             items:1,
             nav:true
         },
-        768:{
+        600:{
             items:2,
             nav:true
         },
