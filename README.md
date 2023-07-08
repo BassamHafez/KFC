@@ -1,2 +1,2 @@
- KFC Restaurant
-live demo https://bassamhafez.github.io/KFC/
+#KFC Restaurant
+KFC restaurant is a responsive web page made using html, css, js and some plugins
