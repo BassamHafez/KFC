@@ -22,11 +22,13 @@ html,body{
     align-items: center;
     z-index:5;
     flex-direction: column;
-    background-color:black;
+    background-color: white;
   }
-  .loading-logo{
-    width: 300px;
-  }
+.spinner-border {
+    width:6.25rem;
+    height: 6.25rem;
+    font-size: 1.875rem;
+}
 
 .home{
     position:fixed;
